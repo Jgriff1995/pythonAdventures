@@ -41,13 +41,15 @@ print("Maximum value:", max_value)  # Output: 50
 
 # Workaround 1: Concatenate tuples
 new_tuple = example_tuple + (60,)
-print("\nNew Tuple after Concatenation:", new_tuple)  # Output: (10, 20, 30, 40, 50, 60)
+# Output: (10, 20, 30, 40, 50, 60)
+print("\nNew Tuple after Concatenation:", new_tuple)
 
 # Workaround 2: Convert to list, append, and convert back to tuple
 temp_list = list(example_tuple)
 temp_list.append(70)
 new_tuple = tuple(temp_list)
-print("New Tuple after List Conversion:", new_tuple)  # Output: (10, 20, 30, 40, 50, 70)
+# Output: (10, 20, 30, 40, 50, 70)
+print("New Tuple after List Conversion:", new_tuple)
 
 # ------------------------------------------------------------------------------------
 # Using `.count()` Method

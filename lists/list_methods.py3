@@ -16,18 +16,20 @@ print("Example List:", example_list)
 
 # Count occurrences of "Your mom"
 print("\nCounting Occurrences:")
-print('Number of "Your mom" in example_list:', example_list.count("Your mom"))  # Output: 2
+print('Number of "Your mom" in example_list:',
+      example_list.count("Your mom"))  # Output: 2
 
 # ------------------------------------------------------------------------------------
 # Example: Counting Votes
 # A practical example of counting occurrences in a list of votes.
 # ------------------------------------------------------------------------------------
 
-votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie",
+         "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
 
 # Count votes for each candidate
-vote_count = [["Jake", votes.count("Jake")], 
-              ["Laurie", votes.count("Laurie")], 
+vote_count = [["Jake", votes.count("Jake")],
+              ["Laurie", votes.count("Laurie")],
               ["Cassie", votes.count("Cassie")]]
 
 print("\nVotes List:", votes)
@@ -40,7 +42,8 @@ print("Vote Count:", vote_count)
 
 # Insert "Your Dad" at the second-to-last position
 example_list.insert(-1, "Your Dad")
-print("\nAfter Inserting 'Your Dad':", example_list)  # Output: ['JD', 'Cody', 'Josh', 'Your mom', 'Your Dad', 'Your mom']
+# Output: ['JD', 'Cody', 'Josh', 'Your mom', 'Your Dad', 'Your mom']
+print("\nAfter Inserting 'Your Dad':", example_list)
 
 # ------------------------------------------------------------------------------------
 # Removing Items from a List
@@ -50,7 +53,8 @@ print("\nAfter Inserting 'Your Dad':", example_list)  # Output: ['JD', 'Cody', '
 
 # Remove the last item
 print("\nPopped Item:", example_list.pop())  # Output: "Your mom"
-print("List After Pop:", example_list)  # Output: ['JD', 'Cody', 'Josh', 'Your mom', 'Your Dad']
+# Output: ['JD', 'Cody', 'Josh', 'Your mom', 'Your Dad']
+print("List After Pop:", example_list)
 
 # ------------------------------------------------------------------------------------
 # Creating Lists with `range()`
@@ -59,15 +63,18 @@ print("List After Pop:", example_list)  # Output: ['JD', 'Cody', 'Josh', 'Your m
 
 # Range from 0 to 10 (not inclusive)
 example_list_2 = range(10)
-print("\nRange from 0 to 10:", list(example_list_2))  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print("\nRange from 0 to 10:", list(example_list_2))
 
 # Range from 2 to 10 (not inclusive)
 example_list_3 = range(2, 10)
-print("Range from 2 to 10:", list(example_list_3))  # Output: [2, 3, 4, 5, 6, 7, 8, 9]
+# Output: [2, 3, 4, 5, 6, 7, 8, 9]
+print("Range from 2 to 10:", list(example_list_3))
 
 # Range from 2 to 10, incrementing by 2
 example_list_4 = range(2, 10, 2)
-print("Range from 2 to 10, incrementing by 2:", list(example_list_4))  # Output: [2, 4, 6, 8]
+print("Range from 2 to 10, incrementing by 2:",
+      list(example_list_4))  # Output: [2, 4, 6, 8]
 
 # ------------------------------------------------------------------------------------
 # Finding the Length of a List
@@ -89,10 +96,12 @@ example_list_5 = ["a", "b", "c", "d", "e", "f", "g"]
 
 # Slice from index 0 to 5 (not inclusive)
 example_list_5_sliced = example_list_5[0:5]
-print("\nSliced List (0:5):", example_list_5_sliced)  # Output: ['a', 'b', 'c', 'd', 'e']
+# Output: ['a', 'b', 'c', 'd', 'e']
+print("\nSliced List (0:5):", example_list_5_sliced)
 
 # First 5 elements
-print("First 5 Elements:", example_list_5[:5])  # Output: ['a', 'b', 'c', 'd', 'e']
+# Output: ['a', 'b', 'c', 'd', 'e']
+print("First 5 Elements:", example_list_5[:5])
 
 # First 3 elements
 print("First 3 Elements:", example_list_5[:3])  # Output: ['a', 'b', 'c']
@@ -101,7 +110,8 @@ print("First 3 Elements:", example_list_5[:3])  # Output: ['a', 'b', 'c']
 print("Last 2 Elements:", example_list_5[-2:])  # Output: ['f', 'g']
 
 # All elements except the last one
-print("All Elements Except Last:", example_list_5[:-1])  # Output: ['a', 'b', 'c', 'd', 'e', 'f']
+# Output: ['a', 'b', 'c', 'd', 'e', 'f']
+print("All Elements Except Last:", example_list_5[:-1])
 
 # ------------------------------------------------------------------------------------
 # Sorting Lists
@@ -121,7 +131,7 @@ names_sorted = sorted(votes)
 print("Names Sorted:", names_sorted)
 
 # ------------------------------------------------------------------------------------
-# Key Takeaways 
+# Key Takeaways
 # - Lists are mutable and versatile, allowing operations like insertion, deletion, and sorting.
 # - Tuples are immutable and useful for storing fixed data.
 # - Both lists and tuples support operations like slicing, counting, and finding length.

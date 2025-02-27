@@ -78,7 +78,8 @@ for ingredient in ingredients:
 
 # One-line for loop
 print("\nIngredients (one-line for loop):")
-for ingredient in ingredients: print(ingredient)
+for ingredient in ingredients:
+    print(ingredient)
 
 # ------------------------------------------------------------------------------------
 # Best Practices for For Loops
@@ -104,4 +105,3 @@ for fruit in favorite_fruits:
 # banana
 # strawberry
 # mango
-

@@ -32,7 +32,8 @@ names_and_heights = zip(names, heights)
 # instead provides a way to access the paired elements.
 # ------------------------------------------------------------------------------------
 
-print("\nZip Object:", names_and_heights)  # Output: <zip object at 0x7f1631e86b48>
+# Output: <zip object at 0x7f1631e86b48>
+print("\nZip Object:", names_and_heights)
 
 # ------------------------------------------------------------------------------------
 # Converting the Zip Object to a List
@@ -40,7 +41,8 @@ print("\nZip Object:", names_and_heights)  # Output: <zip object at 0x7f1631e86b
 # ------------------------------------------------------------------------------------
 
 converted_list = list(names_and_heights)
-print("\nConverted List:", converted_list)  # Output: [('Jenny', 61), ('Alexus', 70), ('Sam', 67), ('Grace', 64)]
+# Output: [('Jenny', 61), ('Alexus', 70), ('Sam', 67), ('Grace', 64)]
+print("\nConverted List:", converted_list)
 
 # ------------------------------------------------------------------------------------
 # Observations About the Converted List
@@ -61,7 +63,8 @@ names_heights_ages = zip(names, heights, ages)
 
 # Convert the zip object to a list
 converted_list_2 = list(names_heights_ages)
-print("\nConverted List with Ages:", converted_list_2)  # Output: [('Jenny', 61, 25), ('Alexus', 70, 30), ('Sam', 67, 28), ('Grace', 64, 22)]
+# Output: [('Jenny', 61, 25), ('Alexus', 70, 30), ('Sam', 67, 28), ('Grace', 64, 22)]
+print("\nConverted List with Ages:", converted_list_2)
 
 # ------------------------------------------------------------------------------------
 # Unzipping a Zipped List
@@ -72,7 +75,8 @@ print("\nConverted List with Ages:", converted_list_2)  # Output: [('Jenny', 61,
 # Unzip the converted_list back into names and heights
 unzipped_names, unzipped_heights = zip(*converted_list)
 
-print("\nUnzipped Names:", unzipped_names)  # Output: ('Jenny', 'Alexus', 'Sam', 'Grace')
+# Output: ('Jenny', 'Alexus', 'Sam', 'Grace')
+print("\nUnzipped Names:", unzipped_names)
 print("Unzipped Heights:", unzipped_heights)  # Output: (61, 70, 67, 64)
 
 # ------------------------------------------------------------------------------------
@@ -99,7 +103,8 @@ grades_and_subjects = zip(grades, subjects)
 
 # Convert to a list
 grades_subjects_list = list(grades_and_subjects)
-print("\nGrades and Subjects:", grades_subjects_list)  # Output: [(85, 'Math'), (90, 'Science'), (78, 'History'), (92, 'English')]
+# Output: [(85, 'Math'), (90, 'Science'), (78, 'History'), (92, 'English')]
+print("\nGrades and Subjects:", grades_subjects_list)
 
 # ------------------------------------------------------------------------------------
 # End of File

@@ -11,7 +11,8 @@
 # found, we’ll stop the loop using `break`.
 # ------------------------------------------------------------------------------------
 
-items_on_sale = ["blue shirt", "striped socks", "knit dress", "red headband", "dinosaur onesie"]
+items_on_sale = ["blue shirt", "striped socks",
+                 "knit dress", "red headband", "dinosaur onesie"]
 
 print("Checking the sale list!")
 
@@ -162,7 +163,8 @@ for word in words:
 # Let’s use nested loops to print each student in a list of project teams.
 # ------------------------------------------------------------------------------------
 
-project_teams = [["Ava", "Samantha", "James"], ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
+project_teams = [["Ava", "Samantha", "James"],
+                 ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
 
 print("\nPrinting Each Team:")
 for team in project_teams:

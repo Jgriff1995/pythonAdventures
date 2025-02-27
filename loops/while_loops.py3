@@ -71,7 +71,9 @@ while count <= 3:
 # One-line while loop
 print("\nOne-Line While Loop:")
 count = 0
-while count <= 3: print(count); count += 1  # Output: 0 1 2 3
+while count <= 3:
+    print(count)
+    count += 1  # Output: 0 1 2 3
 
 # ------------------------------------------------------------------------------------
 # Key Differences Between For and While Loops
