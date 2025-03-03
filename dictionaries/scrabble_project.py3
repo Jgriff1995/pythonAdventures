@@ -27,8 +27,7 @@ print(letter_to_points)
 def score_word(word):
     point_total = 0
     for letter in word:
-        # Convert the letter to uppercase to handle lowercase inputs.
-        point_total += letter_to_points.get(letter.upper(), 0)
+        point_total += letter_to_points.get(letter, 0)
     return point_total
 
 
