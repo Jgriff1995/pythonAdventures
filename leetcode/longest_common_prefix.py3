@@ -1,4 +1,4 @@
-# Date: [Insert Date]
+# Date: 3/03/2025
 # Author: @Jgriff1995
 # Problem Link: https://leetcode.com/problems/longest-common-prefix/
 # Difficulty: Easy
