@@ -1,16 +1,57 @@
-# Python Basics
+# Python Adventures
 
-Welcome to my **Python Basics** repository! This is where I’m building a strong foundation in Python as I transition from Java to Python for interview preparation and problem-solving. 
+Welcome to my Python Adventures repository! This collection showcases my journey in mastering Python, transitioning from Java, and tackling various coding challenges.
 
-### Why Python?
-After reflecting on my earlier approaches in Java, I realized I was focusing too much on syntax and not enough on **programming patterns** and **problem-solving strategies**. Python, with its simplicity and readability, is helping me focus on what truly matters: understanding patterns, writing clean code, and thinking algorithmically.
+## Table of Contents
 
-This repository is a fresh start—a place to practice, learn, and grow. Whether it’s mastering loops, data structures, or algorithms, I’m committed to becoming a better programmer, one line of code at a time.
+- [Python Adventures](#python-adventures)
+  - [Table of Contents](#table-of-contents)
+  - [About the Project](#about-the-project)
+  - [Repository Structure](#repository-structure)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
 
-### What’s Inside?
-- **Basics**: Core Python concepts, from loops to functions.
-- **Practice**: Solutions to common interview questions and coding challenges.
-- **Progress**: A journey of improvement, with each commit representing a step forward.
+## About the Project
 
-### Join Me!
-If you’re also on a journey to improve your programming skills, feel free to explore, fork, or contribute. Let’s learn and grow together!
+After reflecting on my earlier approaches in Java, I realized I was focusing too much on syntax and not enough on programming patterns and problem-solving strategies. Python, with its simplicity and readability, allows me to focus on what truly matters: understanding patterns, writing clean code, and thinking algorithmically.
+
+This repository serves as a fresh start—a place to practice, learn, and grow. Whether it's mastering loops, data structures, or algorithms, I'm committed to becoming a better programmer, one line of code at a time.
+
+## Repository Structure
+
+The repository is organized as follows:
+
+- **Intro_basic/**: Core Python concepts, from loops to functions.
+- **examples/**: Practical examples and mini-projects to demonstrate Python applications.
+- **leetcode/**: Solutions to common interview questions and coding challenges from LeetCode.
+- **personal_projects/**: Individual projects exploring various Python applications.
+
+## Getting Started
+
+To explore or run the code in this repository:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Jgriff1995/pythonAdventures.git
+    ```
+2. **Navigate to project directory**
+    ```bash
+    cd pythonAdventures
+    ```
+3. **Explore the direcotires to find topics or projects of interest**
+   
+4. **Run python scripts using:**
+    ```bash
+    python filename.py 
+    ```
+
+## Contributing
+
+If you're also on a journey to improve your programming skills, feel free to explore, fork, or contribute. Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (`git checkout -b feature/YourFeature`).
+Commit your changes (`git commit -m 'Add YourFeature'`).
+Push to the branch (`git push origin feature/YourFeature`).
+Open a Pull Request.
