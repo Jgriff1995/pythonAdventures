@@ -50,8 +50,8 @@ To explore or run the code in this repository:
 
 If you're also on a journey to improve your programming skills, feel free to explore, fork, or contribute. Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch (`git checkout -b feature/YourFeature`).
-Commit your changes (`git commit -m 'Add YourFeature'`).
-Push to the branch (`git push origin feature/YourFeature`).
-Open a Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
